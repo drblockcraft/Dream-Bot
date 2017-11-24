@@ -1,5 +1,6 @@
 var Discord = require('discord.io');
 
+
 var bot = new Discord.Client({
     token: "MzgzNDM1ODc5MTY0ODA1MTIx.DPk2zg.x7PdDrq3k7VluI0TimVoD89SYgk",
     autorun: true
@@ -13,7 +14,7 @@ bot.on('message', function(user, userID, channelID, message, event) {
     if (message === "!ping") {
         bot.sendMessage({
             to: channelID,
-            message: "pong"
+            message: "pong!"
         });
     }
 });
