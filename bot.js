@@ -19,15 +19,14 @@ bot.on('message', function(user, userID, channelID, message, event) {
     if (message === "d!lenny"){
       bot.sendMessage({
         to: channelID,
-        message: "( ͡° ͜ʖ ͡°)",
+        message: len,
       });
     }
 });
-/*
+
 function len(){
   var a = Math.floor((Math.random()*1)+1);
   if(a===1){
     console.log("( ͡° ͜ʖ ͡°)");
   }
 }
-*/
