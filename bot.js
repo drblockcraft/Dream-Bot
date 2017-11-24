@@ -25,8 +25,16 @@ bot.on('message', function(user, userID, channelID, message, event) {
 });
 
 function len(){
-  var a = Math.floor((Math.random()*1)+1);
-  if(a===1){
+  var a = Math.floor((Math.random()*5)+1);
+  if(a==1){
     console.log("( ͡° ͜ʖ ͡°)");
+  } else if(a==2){
+    console.log("(° ͜ʖ°)");
+  } else if(a==3){
+    console.log("͡° ͜ʖ ͡°");
+  } else if(a==4){
+    console.log("( ͡°- ͡°)");
+  } else if(a==5){
+    console.log("( ͡°° ͜ʖ ͡°°)");
   }
 }
