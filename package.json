@@ -1,0 +1,24 @@
+{
+  "name": "Dream-Bot",
+  "version": "0.0.1",
+  "description": "My first discord bot",
+  "main": "bot.js",
+  "typings": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drblockcraft/Dream-bot"
+  },
+  "author": "drblockcraft",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drblockcraft/Dream-bot/issues"
+  },
+  "homepage": "https://github.com/drblockcraft/Dream-bot#readme",
+  "dependencies": {
+    "discord.io": "^2.5.3",
+    "winston": "^2.4.0"
+  }
+}
