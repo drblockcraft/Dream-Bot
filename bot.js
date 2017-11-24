@@ -13,7 +13,7 @@ bot.on('message', function(user, userID, channelID, message, event) {
     if (message === "d!ping") {
         bot.sendMessage({
             to: channelID,
-            message: "pong!"
+            message: "pong!",
         });
     }
     if (message === "d!lenny"){
